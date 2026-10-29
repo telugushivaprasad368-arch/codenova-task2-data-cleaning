@@ -1,0 +1,71 @@
+{
+  "before": {
+    "row_count": 562,
+    "null_counts": {
+      "order_id": 1,
+      "order_date": 0,
+      "region": 0,
+      "category": 0,
+      "units_sold": 1,
+      "unit_price": 1,
+      "gross_revenue": 0
+    },
+    "exact_duplicates": 2,
+    "invalid_types_or_values": {
+      "order_date": 0,
+      "units_sold": 1,
+      "unit_price": 1,
+      "gross_revenue": 1
+    },
+    "gross_revenue": {
+      "count": 562,
+      "min": 0.0,
+      "median": 326.94,
+      "max": 999999.0,
+      "total": 2247836.08
+    }
+  },
+  "after": {
+    "row_count": 541,
+    "null_counts": {
+      "order_id": 0,
+      "order_date": 0,
+      "region": 0,
+      "category": 0,
+      "units_sold": 0,
+      "unit_price": 0,
+      "gross_revenue": 0
+    },
+    "exact_duplicates": 0,
+    "invalid_types_or_values": {
+      "order_date": 0,
+      "units_sold": 0,
+      "unit_price": 0,
+      "gross_revenue": 0
+    },
+    "gross_revenue": {
+      "count": 541,
+      "min": 13.02,
+      "median": 309.82,
+      "max": 1422.12,
+      "total": 223480.47
+    }
+  },
+  "actions": {
+    "exact_duplicates_removed": 2,
+    "standardized_text_or_dates": 3,
+    "invalid_identifier_category_or_date_removed": 2,
+    "invalid_numeric_type_removed": 1,
+    "invalid_numeric_value_removed": 2,
+    "units_imputed_category_median": 1,
+    "price_imputed_category_median": 1,
+    "iqr_revenue_outliers_removed": 14
+  },
+  "iqr_bounds": {
+    "q1": 135.7,
+    "q3": 658.98,
+    "iqr": 523.28,
+    "lower_bound": -649.22,
+    "upper_bound": 1443.9
+  }
+}
